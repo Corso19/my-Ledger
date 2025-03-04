@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.contact-details-columnn{
+  background-color: #23AAC3;
+  background-color: #027085;
+  background-color: #73CCDD;
+  background-color: #001013;
+}
+
+.contact-details-column{
+  background-color: #027085;
+  font-size: 18px
+}
+
+.title-screen-logo{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 7vh;
+}
+
+.about-details-column{
+  background-color: #23AAC3;
+  background-color: #027085;
+  background-color: #73CCDD;
+  background-color: #001013;
+  background-color: #027085;
+  font-size: 30px;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-color-white{
+  color: #FCFCFC !important;
+}
+
+.text-color-black{
+  color: #001013 !important;
+}
+
+.visitor-navbar{
+  background-color: #23AAC3 !important;
+}
+
+img#about-title-img {
+  height: 100px;
+}
+
+.about-container .styled-stack-blue{
+    background-color: #027085;
+    color: white;
+    border-bottom-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.about-container .styled-stack-white{
+    margin-bottom: 40px;
+}
+
+#about-page-item{
+    background-color: #027085;
+    color: white;
+}
+
+/* Stilurile pentru formular */
+.form-container {
+  display: flex;
+  justify-content: center; /* Centrare pe orizontală */
+  align-items: center; /* Centrare pe verticală */
+  height: 100vh; /* Înălțimea formularului va fi egală cu înălțimea vizualizării */
+}
+
+.rounded-form {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilurile pentru input */
+.input-venit {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Stilurile pentru buton */
+.calculate-button {
+  background-color: #23AAC3;
+  color: #050505;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #027085;
+}
+
+.card-header{
+  height: 200px;
+}
+
+.card-image{
+  height:200px;
+  width:200px !important;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 5px #e1e1e1;
+  transform: scale(1.1);
+}
+
+.card-link{
+  text-decoration: none;
+  color:#001013;
+}
+
+.card{
+  width: 400px;
+}
+
+.button-default{
+  background-color: #027085 !important;
+  border: 1px solid black !important;
+}
+
+.button-default:hover{
+  background-color: #02849e !important;
+  border: 2px solid black !important;
+}
+
+.dropzone-upload-files{
+  border: 3px dashed #eeeeee;
+}
+
+.dropzone-upload-files:hover{
+  border-color: #027085;
+  background-color: #f3fafb;
+}
+
+.equal-width-tabs .nav-tabs {
+  display: flex;
+}
+
+.equal-width-tabs .nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.equal-width-tabs .nav-link, .equal-width-tabs .nav-link:hover{
+  width: 100%;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #001013;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.equal-width-tabs .nav-link.active,
+.equal-width-tabs .nav-link[aria-selected="true"] {
+  background-color: #027085 !important;
+  color: #FCFCFC !important;
+}
